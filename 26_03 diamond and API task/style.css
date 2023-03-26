@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.one
+{
+    flex: auto;
+    -webkit-animation: spin 1s linear infinite;
+
+}
+.two
+{
+    flex: auto;
+    -webkit-animation: spin 1s linear infinite;
+
+}
+.three
+{
+    text-align: center;
+    -webkit-animation: spin 1s linear infinite;
+
+}
+
+.four
+{
+    flex: auto;
+    -webkit-animation: spin 1s linear infinite;
+}
+.five   
+{
+    flex: auto;
+    -webkit-animation: spin 1s linear infinite;
+
+}
+  
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
