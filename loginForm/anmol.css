@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form
+{
+    display: block;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-color: aqua;
+}
+.name
+{
+    width: 50%;
+    margin-top: 1rem;
+
+}
+.class
+{
+    width: 50%;
+    margin-top: 1rem;
+
+}
+.section
+{
+    width: 50%;
+    margin-top: 1rem;
+
+}
+.audio
+{
+    /* display: block; */
+    margin-top: 1rem;
+
+    width: 50%;
+
+}
+.image
+{
+    /* display: block; */
+    margin-top: 1rem;
+
+    width: 50%;
+
+}
+.video
+{
+    /* display: block; */
+    margin-top: 1rem;
+
+    width: 50%;
+
+}
+.images
+{
+    /* display: block; */
+    margin-top: 1rem;
+
+    width: 50%;
+
+}
+button{
+    margin-top: 1rem;
+    width: 50%;
+}
