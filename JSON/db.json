@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users":[
+    {
+      "name": "sameer faridi",
+      "job": "webdev",
+      "age":21
+    }
+  ],
+
+"wW" : {"name": "Wonder Woman", "real name": "Diana Prince"},
+
+"w": {
+  "name":"Wonder Woman",
+"real name":"Diana Prince"
+},
+"h": {"villain":"sameer" },
+"a": ["Robin", "Batgirl","Superman"]
+}
