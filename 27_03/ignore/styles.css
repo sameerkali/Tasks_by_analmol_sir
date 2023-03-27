@@ -1,0 +1,33 @@
+@import url(./utility.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(234, 239, 239);
+}
+.logo
+{
+    height: 5rem;
+    margin: 2rem 10rem;
+}
+.right
+{
+    margin: 4rem auto;
+}
+.right a
+{
+    text-align: center;
+    text-decoration: none;
+}
+a
+{
+    margin: 2rem;
+    color: rebeccapurple;
+}
+.sec1 .left1
+{
+    text-align: right;
+    margin-right: 1rem;
+}
