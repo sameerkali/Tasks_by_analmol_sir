@@ -1,0 +1,25 @@
+the task is -- 
+
+make a c++ form and link it with a website using API. 
+
+
+So, to make this possible I am currently researching how it is supposed to be done.
+
+**https://www.quora.com/How-do-I-link-a-C++-program-with-an-HTML-page
+**https://cplusplus.com/forum/beginner/113403/
+**https://www.youtube.com/watch?v=yo3ImzEwP50
+**make a form using c++ and link it with website
+
+I use chat gpt for this but -- 😰 it is not that simple.
+
+
+
+
+
+
+
+
+
+
+
+
