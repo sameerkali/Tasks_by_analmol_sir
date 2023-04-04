@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+.container
+{
+    /* display: flex;
+    flex-direction: row; */
+}
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+button
+{
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    /* background-color: #555; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.btn {
+  background-color: rgba(23, 29, 11, 0.427);
+  border: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  font-size: 1.3rem;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 0.5rem;
+}
+.delete
+{
+    background-color: rgba(23, 29, 11, 0.427);
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 80px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.enter
+{
+    background-color: rgba(23, 29, 11, 0.427);
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 80px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.shift
+{
+    background-color: rgba(23, 29, 11, 0.427);
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 80px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.space
+{
+    background-color: rgba(23, 29, 11, 0.427);
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 20rem;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+button:hover
+{
+  
+}
+
+.textarea
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+textarea
+{
+    width: 100%;
+    height: 15rem;
+    resize: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: solid 1px rgba(23, 29, 11, 0.427);
+    border-radius: 1rem;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+.upper 
+{
+    text-transform: uppercase;
+}
+
+span
+{
+    margin-top: 3px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+.numlock
+{
+    font-size: 10px;
+}
+.zero
+{
+    background-color: rgba(23, 29, 11, 0.427);
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 80px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.super
+{
+    display: flex;
+}
+.numbers
+{
+    margin-top: 17rem;
+}
+
+.del {
+    background-color: rgba(23, 29, 11, 0.427);
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+  }
