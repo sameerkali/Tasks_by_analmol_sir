@@ -41,15 +41,17 @@ app.get("/", function (req, res) {
 })
 
 app.post("/", function (req, res) {
-    const query = req.body.cityName
+    const query = req.body.joke
+    console.log(query)
     var url = "https://v2.jokeapi.dev/joke/any"
     https.get(url, function (response) {
         console.log(response.statusCode)
 
-        response.on("data", function (data) {
-            const weatherData = JSON.parse(data)
+        response.on("data", function (setup) {
+            const temp = joke.main.setup
+            const jokes = JSON.parse(setup)
             res.write(`<h1>The joke is </h1>`)
-            res.write(`<p>The weather of ${query}   currently is ${disc} </p>`)
+            res.write(`<p>The weather of ${temp} </p>`)
             res.send()
         })
     })
