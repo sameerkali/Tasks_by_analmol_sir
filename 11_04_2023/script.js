@@ -22,7 +22,6 @@ app.get('/', (req, res) => {
 
 app.post("/", function(req, res){
     const query = req.body.selectOption
-    // console.log(query);
         var url = "https://v2.jokeapi.dev/joke/"+ query+""
         https.get(url, function(response){
             console.log(response.statusCode)
@@ -32,7 +31,14 @@ app.post("/", function(req, res){
                const jokes = JSON.parse(data)
                console.log(jokes)
                const temp = jokes.setup
-               res.write(`<h1>the joke  is ${jokes.setup}</h1>`)
+               const mazaak = jokes.joke
+               if(temp == undefined){
+                   res.write(`<h1> joke: ${ mazaak } </h1>`)
+               }
+               else{
+                res.write(`<h1> santa:  ${ temp } </h1>`)
+                res.write(`<h1> banta: ${ jokes.delivery } </h1>`)
+               }
                res.send()
             })
         })
