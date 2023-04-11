@@ -41,9 +41,9 @@ app.get("/", function (req, res) {
 })
 
 app.post("/", function (req, res) {
-    const query = req.body.joke
+    const query = req.body.data
     console.log(query)
-    var url = "https://v2.jokeapi.dev/joke/any"
+    var url = "https://v2.jokeapi.dev/joke/"+query+""
     https.get(url, function (response) {
         console.log(response.statusCode)
 
