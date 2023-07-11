@@ -1,0 +1,19 @@
+
+<%- include("partials/header"); -%>
+          <button class="btn btn-primary" name="button" ><a href="/">HOME</a></button>
+    <h1>Expence</h1>
+    <form class="" action="/compose" method="post">
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" name="title">
+        <label>Amount</label>
+        <input class="form-control" type="text" name="amount">
+        <label>Details</label>
+        <textarea class="form-control" name="description" rows="5" cols="30"></textarea>
+      </div>
+      
+      <button class="btn btn-primary" type="submit" name="button">Record</button>
+
+    </form>
+
+<%- include("partials/footer"); -%>
