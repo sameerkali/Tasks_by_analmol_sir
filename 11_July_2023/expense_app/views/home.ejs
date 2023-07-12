@@ -4,9 +4,11 @@
       <ul>
         <% expenses.forEach((expense) => { %>
           <li>
+            <div class="container">
             <h3><%= expense.title %></h3>
-            <p>Amount: <%= expense.amount %>$</p>
-            <p>Description: <%= expense.description %></p>
+            <h4> <%= expense.amount %>$</h4>
+            <p> <%= expense.description %></p>
+          </div>
           </li>
         <% }) %>
       </ul>
