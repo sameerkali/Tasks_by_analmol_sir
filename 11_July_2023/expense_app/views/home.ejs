@@ -1,19 +1,41 @@
 <%- include("partials/header") %>
+    <h1>Expense List</h1>
+    <% if (expenses.length > 0) { %>
+      <ul>
+        <% expenses.forEach((expense) => { %>
+          <li>
+            <h3><%= expense.title %></h3>
+            <p>Amount: <%= expense.amount %>$</p>
+            <p>Description: <%= expense.description %></p>
+          </li>
+        <% }) %>
+      </ul>
+    <% } else { %>
+      <p>No expenses found.</p>
+    <% } %>
+    <%- include("partials/footer") %>
 
-<h1 class="heading">EXPENCE</h1>
-<button class="navbaar-a" id="contact"><a href="/compose">Expence</a></button>
-
-<% posts.forEach(function(post) { %>
-
-    <h1 class="title"><%=post.title%></h1>
-    <h3 class="amount">
-        <%=post.amount%>
-    </h3>
-    <p class="content">
-      <%=post.description%>
-    </p>
-
-    <% }); %>
 
 
-<%- include("partials/footer") %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
